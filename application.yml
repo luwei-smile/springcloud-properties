@@ -1,14 +1,14 @@
 ﻿spring:
    profiles: 
      active: 
-     - dev
+     -dev
 ---
 spring:
    profiles: dev
    application:
-    name:  springcloud-properties-dev
+    name:  microsericers-config-3344-dev
 ---
 spring:
    profiles: test
    application:
-    name:  springcloud-properties-test
+    name:  microsericers-config-3344-test
